@@ -163,6 +163,10 @@ a{
    height: 281px;
    width: 166px;
 }
+/* Estilo de Sumeru */
+.ajustes{
+   height: 279px;
+}
 
 @media (max-width: 1165px) {
    .fondo {
