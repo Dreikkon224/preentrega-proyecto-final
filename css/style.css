@@ -158,6 +158,11 @@ a{
 .hoyolab {
    height: 59px;
 }
+/* Estilo de Liyue */
+.yaoyao{
+   height: 281px;
+   width: 166px;
+}
 
 @media (max-width: 1165px) {
    .fondo {
