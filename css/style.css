@@ -5,7 +5,7 @@
 }
 
 header{
-   background-color: rgb(228, 197, 74);
+   background-color: rgba(27, 27, 25, 0.644);
    height: 4rem;
    width: 100%;
 }
@@ -26,7 +26,7 @@ li{
    justify-content: flex-end;
 }
 a{
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    text-decoration: none;
 }
 .main{
@@ -65,7 +65,7 @@ a{
    justify-content: space-around
 }
 .pie{
-   background-color: rgb(204, 174, 56);
+   background-color: rgba(0, 0, 0, 0.61);
 }
 .titulo__footer{
    display: flex;
@@ -106,7 +106,7 @@ a{
 .texto {
    padding: 14px;
    width: 867px;
-   background-color: rgba(214, 209, 209, 0.726);
+   background-color: rgba(153, 152, 152, 0.692);
    border-radius: 17px;
 }
 
@@ -159,11 +159,30 @@ a{
    height: 59px;
 }
 /* Estilo de Liyue */
+.fondo_L{
+   background: linear-gradient(0deg, rgba(50,41,8,1) 0%, rgba(246,183,59,1) 52%, rgba(255,233,0,1) 100%);
+}
 .yaoyao{
    height: 281px;
    width: 166px;
 }
+/* Estilo de Inazuma */
+.texto_I{
+   padding: 14px;
+   width: 867px;
+   background-color: rgba(202, 200, 200, 0.692);
+   border-radius: 17px;
+}
+.ajuste_I{
+   height: 207px;
+}
+.fondo_I{
+   background: linear-gradient(0deg, rgb(71, 53, 92) 0%, rgba(72,9,121,1) 38%, rgba(216,0,255,1) 100%);
+}
 /* Estilo de Sumeru */
+.fondo_S{
+   background: linear-gradient(0deg, rgba(50,41,8,1) 0%, rgba(133,246,59,1) 52%, rgba(76,189,62,1) 100%);
+}
 .ajustes{
    height: 279px;
 }
